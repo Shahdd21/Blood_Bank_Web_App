@@ -1,0 +1,457 @@
+*{font-family: 'IBM Plex Sans Arabic', sans-serif;
+  direction: rtl;
+  }
+  .parent{
+      
+      position:relative;
+      height:118.1rem;
+      width:168rem;
+      /* background-color:rgba(255,255,255,0.75); */
+      background-color: rgba(238, 53, 61, 0.1);
+  }
+      
+          .aboutnavbar {
+              height: 5.9rem;
+              left: 4.1rem;
+              position: absolute;
+              top: 2.05rem;
+              width: 157.4rem;
+              
+            }
+              .aboutlogo {
+                align-items: center;
+                display: flex;
+                height: 5.9rem;
+                justify-content: center;
+                left: 153.6rem;
+                position: absolute;
+                top: 0;
+                width: 3.8rem;
+              }
+              .about_nav_content {
+                align-items: center;
+                display: flex;
+                justify-content: space-around;
+                left: 46.6rem;
+                position: absolute;
+                top: 1.95rem;
+                white-space: nowrap;
+                width: 66.6rem;
+              }
+              nav a{
+                text-decoration: none;
+                color: #EE353D;
+                font-family: 'IBM Plex Sans Arabic', sans-serif;
+                font-size: 2rem;
+                font-weight: 600;
+                height: 2rem;
+                line-height: 1.2125;
+                position: relative;
+                transition: 0.3s;
+              }
+              nav a::before{
+                content: '';
+                position: absolute;
+                left: 0;
+                height: 6px;
+                width: 0%;
+                background-color: #f3d2d2;
+                bottom: -10px;
+                transition: 0.3s;
+              }
+              nav a:hover::before{
+                width: 100%;
+              }
+               nav a:hover{
+                color:  rgba(246, 9, 9, 0.75);
+                font-weight: bold;
+                text-shadow:1px 1px 1px #f63636;
+  
+              }
+              .sign_icon {
+                background-color: #f5f5f5;
+                border-radius: 0.5rem;
+                height: 5rem;
+                left: 17.9rem;
+                position: absolute;
+                top: 0.45rem;
+                width: 15rem;
+                border:1px solid #f63636 ;
+              }
+             
+              .sign_icon_content a{
+                text-decoration: none;
+                align-items: center;
+                color: #f63636;
+                display: flex;
+                font-family: 'IBM Plex Sans Arabic', sans-serif;
+                font-size: 1.6rem;
+                font-weight: 600;
+                height: 2rem;
+                justify-content: center;
+                left: 22.05rem;
+                line-height: 1.2125;
+                position: absolute;
+                top: 1.95rem;
+                white-space: nowrap;
+                width: 6.7rem;
+              }
+        
+              .login_icon {
+                border: solid 0.1rem #f5f5f5;
+                border-radius: 0.5rem;
+                box-sizing: border-box;
+                height: 5rem;
+                left: 0;
+                position: absolute;
+                top: 0.45rem;
+                width: 15rem;
+                background-color:#EE353D;
+              }
+              .login_icon_content a {
+                text-decoration: none;
+                align-items: center;
+                color: #f5f5f5;
+                display: flex;
+                font-family: 'IBM Plex Sans Arabic', sans-serif;
+                font-size: 1.6rem;
+                font-weight: 600;
+                height: 2rem;
+                justify-content: center;
+                left: 1.7rem;
+                line-height: 1.2125;
+                position: absolute;
+                top: 1.95rem;
+                white-space: nowrap;
+                width: 11.6rem;
+                
+              }
+              .bottom_page {
+                  background-color: #1e1e1e;
+                  box-sizing: border-box;
+                  height: 27.7rem;
+                  left: 0;
+                  padding: 9.3rem 51.85rem;
+                  position: absolute;
+                  top: 120.7rem;
+                  width: 168rem;}
+                  .team {
+                      color: #f63636;
+                      font-family: 'IBM Plex Sans Arabic', sans-serif;
+                      font-size: 5rem;
+                      font-weight: 900;
+                      line-height: 1.2125;
+                      white-space: nowrap;
+                      text-align: center;
+                      padding-left: 5px;
+                      justify-content: center;}
+                      .names {
+                          color: #f5f5f5;
+                          font-family: 'IBM Plex Sans Arabic', sans-serif;
+                          font-size: 2.5rem;
+                          font-weight: 500;
+                          line-height: 1.2125;
+                          white-space: nowrap;
+                          text-align: center;
+                          justify-content: center;
+           }
+  .part1{
+    align-items: center;
+      display: flex;
+      border-radius: 105px;
+      height: 25.2rem;
+      justify-content: center;
+      left: 1.45rem;
+      position: absolute;
+      top: 10.4rem;
+      width: 165.1rem;
+      background-color:#F5F5F5;
+      box-shadow: 0 0.5rem 2.5rem rgba(0, 0, 0, 0.15000);
+  }
+  .part1-sub-0 {
+    color: #ee353d;
+   
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1.2125;
+    white-space: nowrap;
+    position: absolute;
+    top: 27px;
+  }
+  .part1-sub-1 {
+    color: #211b1b;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 2;
+    position: absolute;
+    top: 3px;
+    white-space: pre-line;
+    margin: 51px;
+  }
+  .cards {
+    height: 35rem;
+    left: 11.2rem;
+    position: absolute;
+    top: 52.4rem;
+    width: 145.5rem;
+    
+  
+  }
+  
+  
+  .card1,.card2,.card3{background-color: #f5f5f5;
+    border-radius: 4rem;
+    box-shadow: 0 0.5rem 2.5rem rgba(0, 0, 0, 0.150000006);
+    height: 35rem;
+    position: absolute;
+    width: 45rem;
+    }
+    .card1 {
+      left: 100.5rem;
+      top: 0;
+     
+      
+    }
+    .card1_items {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: 22.9695rem;
+      left: 108.9594rem;
+      position: absolute;
+      top: 6.5rem;
+      width: 28rem;
+    }
+      .card1_img {
+        flex-shrink: 0;
+        height: 9.5rem;
+        margin: 0rem 9.25rem 6rem 9.25rem;
+        
+      }
+      .card1_content {
+        align-items: center;
+        display: flex;
+        flex-shrink: 0;
+        justify-content: center;
+        line-height: 1.2102272034;
+        max-width: 28rem;
+        position: relative;
+      }
+        .card1_content1 {
+          color: #f63636;
+          font-family: 'IBM Plex Sans Arabic', sans-serif;
+          font-size: 3rem;
+          font-weight: 900;
+          line-height: 1.2125;
+          position: absolute;
+          white-space: nowrap;
+        }
+        .card1_content2 {
+          color: #211b1b;
+          font-family: 'IBM Plex Sans Arabic', sans-serif;
+          font-size: 2rem;
+          font-weight: 500;
+          line-height: 1.2125;
+          position: absolute;
+          white-space: nowrap;
+          top: 50px;
+        }
+      
+    
+    .card2 {
+      left: 50.3rem;
+      top: 0;
+      
+    }
+    
+    
+    
+    .card3 {
+      left: 0;
+      top: 0;
+     
+    }
+   
+    .card2_items {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: 22.9695rem;
+      left: 58.7283rem;
+      position: absolute;
+      top: 6.5rem;
+      width: 28.1rem;
+    }
+      .card2_img {
+        flex-shrink: 0;
+        height: 9.5rem;
+        margin: 0rem 0rem 6rem 9.3rem;
+        width: calc(100% - 18.6rem);
+      }
+      .card2_content {
+        align-items: center;
+        display: flex;
+        flex-shrink: 0;
+        justify-content: center;
+        line-height: 1.2102272034;
+        max-width: 28.1rem;
+        position: relative;
+      }
+        .card2_content1 {
+          color: #f63636;
+          font-family: 'IBM Plex Sans Arabic', sans-serif;
+          font-size: 3rem;
+          font-weight: 900;
+          line-height: 1.2125;
+          position: absolute;
+          white-space: nowrap;
+        }
+        .card2_content2 {
+          color: #211b1b;
+          font-family: 'IBM Plex Sans Arabic', sans-serif;
+          font-size: 2rem;
+          font-weight: 500;
+          line-height: 1.2125;
+          position: absolute;
+          white-space: nowrap;
+          top: 50px;
+        }
+     
+    .card3_items {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: 22.9695rem;
+      left: 9.1594rem;
+      position: absolute;
+      top:6.5rem;
+      width: 26.6rem;
+    }
+      .card3_img {
+        flex-shrink: 0;
+        height: 9.5rem;
+        margin: 0rem 0rem 6rem 8.55rem;
+        width: calc(100% - 17.1rem);
+      }
+      .card3_content {
+        align-items: center;
+        display: flex;
+        flex-shrink: 0;
+        justify-content: center;
+        line-height: 1.2102272034;
+        max-width: 26.6rem;
+        position: relative;
+      }
+        .card3_content1 {
+          color: #f63636;
+          font-family: 'IBM Plex Sans Arabic', sans-serif;
+          font-size: 3rem;
+          font-weight: 900;
+          line-height: 1.2125;
+          position: absolute;
+          white-space: nowrap;
+        }
+        .card3_content2 {
+          color: #211b1b;
+          font-family: 'IBM Plex Sans Arabic', sans-serif;
+          font-size: 2rem;
+          font-weight: 500;
+          line-height: 1.2125;
+          position: absolute;
+          white-space: nowrap;
+          top: 50px;
+        }
+        .about_bottom_page2 {
+          background-color: #f5f5f5;
+          border-radius: 30rem 30rem 0 0;
+          box-shadow: 0 0 5rem rgba(0, 0, 0, 0.150000006);
+          height: 27.7rem;
+          left: 0;
+          position: absolute;
+          top: 93.7rem;
+          width: 168rem;
+        }
+        .before_last {
+          align-items: center;
+          display: flex;
+          height: 9.1rem;
+          justify-content: center;
+          left: 60.2rem;
+          position: absolute;
+          top: 96.65rem;
+          width: 47.6rem;
+        }
+        .before_last1 {
+          color: #f63636;
+          font-family: 'IBM Plex Sans Arabic', sans-serif;
+          font-size: 5rem;
+          font-weight: 900;
+          line-height: 1.2125;
+          white-space: nowrap;
+          position: absolute;
+          direction: rtl;
+        }
+        .before_last2 {
+          color: #211b1b;
+          font-family: 'IBM Plex Sans Arabic', sans-serif;
+          font-size: 2.5rem;
+          font-weight: 500;
+          line-height: 1.2125;
+          white-space: nowrap;
+          position: absolute;
+          top: 137px;
+        }
+  
+  
+  
+  
+        .registration a {
+          align-items: center;
+          background-color: #f63636;
+          border-radius: 0.5rem;
+          color: #ffffff;
+          display: flex;
+          font-family: 'IBM Plex Sans Arabic', sans-serif;
+          font-size: 1.6rem;
+          font-weight: 600;
+          height: 5rem;
+          justify-content: center;
+          left: 76.5rem;
+          line-height: 1.2125;
+          position: absolute;
+          top: 110.65rem;
+          white-space: nowrap;
+          width: 15rem;
+          direction: rtl;
+          text-decoration: none;
+    
+        }
+        .cards_title{align-items:center;
+          display:flex;
+          height:9.1rem;
+          justify-content:center;
+          left:52.85rem;
+         position:absolute;
+         top: 573px;
+         width:39.9rem;}
+         .cards_title-sub-0{
+          color: #ee353d;
+      font-size: 5rem;
+      font-weight: 900;
+      line-height: 1.2125; 
+      white-space: nowrap;
+      position:absolute;
+      left: 339px;
+         }
+         .cards_title-sub-1{color: #211b1b;
+         
+         font-size: 2.5rem;
+         font-weight: 500;
+         line-height: 1.2125;
+         white-space: nowrap;
+        position:absolute;
+        top: 137px;
+        
+      left: 195px;
+    }
+      

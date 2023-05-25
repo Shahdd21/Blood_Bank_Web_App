@@ -1,0 +1,303 @@
+*{font-family: 'IBM Plex Sans Arabic', sans-serif;
+    direction: rtl;
+    }
+    .parent{
+        height:130.8rem;
+        position:relative;
+        width:100%; 
+        background-image:url('../blood.png');
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+        border-radius:0 0 30rem 0;
+        height:103.1rem;
+        width:168rem;
+        background-color:rgba(255,255,255,0.75);
+    }
+        .background{background-color:rgba(255,255,255,0.75);
+            height:103.1rem;
+            left:0;
+            position:absolute;
+            width:168rem;}
+            .requestnavbar {
+                height: 5.9rem;
+                left: 4.1rem;
+                position: absolute;
+                top: 2.05rem;
+                width: 157.4rem;
+              }
+                .requestlogo {
+                  align-items: center;
+                  display: flex;
+                  height: 5.9rem;
+                  justify-content: center;
+                  left: 153.6rem;
+                  position: absolute;
+                  top: 0;
+                  width: 3.8rem;
+                }
+                .request_nav_content {
+                  align-items: center;
+                  display: flex;
+                  justify-content: space-around;
+                  left: 46.6rem;
+                  position: absolute;
+                  top: 1.95rem;
+                  white-space: nowrap;
+                  width: 66.6rem;
+                }
+                nav a{
+                  text-decoration: none;
+                  color: #EE353D;
+                  font-family: 'IBM Plex Sans Arabic', sans-serif;
+                  font-size: 2rem;
+                  font-weight: 600;
+                  height: 2rem;
+                  line-height: 1.2125;
+                  position: relative;
+                  transition: 0.3s;
+                }
+                nav a::before{
+                  content: '';
+                  position: absolute;
+                  left: 0;
+                  height: 6px;
+                  width: 0%;
+                  background-color: #ffffff;
+                  bottom: -10px;
+                  transition: 0.3s;
+                }
+                nav a:hover::before{
+                  width: 100%;
+                }
+                 nav a:hover{
+                  color:  rgba(255, 255, 255, 0.75);
+                }
+                .sign_icon {
+                  background-color: #f5f5f5;
+                  border-radius: 0.5rem;
+                  height: 5rem;
+                  left: 17.9rem;
+                  position: absolute;
+                  top: 0.45rem;
+                  width: 15rem;
+                }
+               
+.sign_icon_content a{
+                  text-decoration: none;
+                  align-items: center;
+                  color: #f63636;
+                  display: flex;
+                  font-family: 'IBM Plex Sans Arabic', sans-serif;
+                  font-size: 1.6rem;
+                  font-weight: 600;
+                  height: 2rem;
+                  justify-content: center;
+                  left: 22.05rem;
+                  line-height: 1.2125;
+                  position: absolute;
+                  top: 1.95rem;
+                  white-space: nowrap;
+                  width: 6.7rem;
+                }
+          
+                .login_icon {
+                  border: solid 0.1rem #f5f5f5;
+                  border-radius: 0.5rem;
+                  box-sizing: border-box;
+                  height: 5rem;
+                  left: 0;
+                  position: absolute;
+                  top: 0.45rem;
+                  width: 15rem;
+                  background-color:#EE353D;
+                }
+                .login_icon_content a {
+                  text-decoration: none;
+                  align-items: center;
+                  color: #f5f5f5;
+                  display: flex;
+                  font-family: 'IBM Plex Sans Arabic', sans-serif;
+                  font-size: 1.6rem;
+                  font-weight: 600;
+                  height: 2rem;
+                  justify-content: center;
+                  left: 1.7rem;
+                  line-height: 1.2125;
+                  position: absolute;
+                  top: 1.95rem;
+                  white-space: nowrap;
+                  width: 11.6rem;
+                  
+                }
+                .bottom_page {
+                    background-color: #1e1e1e;
+                    box-sizing: border-box;
+                    height: 27.7rem;
+                    left: 0;
+                    padding: 9.3rem 51.85rem;
+                    position: absolute;
+                    top: 102.7rem;
+                    width: 168rem;}
+                    .team {
+                        color: #f63636;
+                        font-family: 'IBM Plex Sans Arabic', sans-serif;
+                        font-size: 5rem;
+                        font-weight: 900;
+                        line-height: 1.2125;
+                        white-space: nowrap;
+                        text-align: center;
+                        padding-left: 5px;
+                        justify-content: center;}
+                        .names {
+                            color: #f5f5f5;
+                            font-family: 'IBM Plex Sans Arabic', sans-serif;
+                            font-size: 2.5rem;
+                            font-weight: 500;
+                            line-height: 1.2125;
+                            white-space: nowrap;
+                            text-align: center;
+                            justify-content: center;
+                          }
+.middel{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 63.05rem;
+    left: 25.4rem;
+    position: absolute;
+    top: 16.25rem;
+    width: 105.2rem;
+}
+.part1{
+  align-items:center;
+  color:#ffffff;
+  display:flex;
+  flex-shrink:0;
+ 
+  font-size:6rem;
+  font-weight:900;
+  justify-content:center;
+  line-height:1.2102272034;
+  margin-bottom:13.6rem;
+  max-width:105.2rem;
+  }
+  .part1-sub-0{
+    color: #2d2d2d;
+    font-size: 5.5rem;
+    font-weight: 600;
+    line-height: 1.2125;
+    white-space: nowrap;
+    position: absolute;
+    top: 1px;
+    }
+    
+      .data{   background-color: rgba(238,53,61,0.5);
+        border-radius: 3rem;
+        box-shadow: 0 0 3rem rgba(0,0,0,0.200000003);
+        height: 54.7rem;
+        left: 26.5rem;
+        position: absolute;
+        top: 33.2rem;
+        width: 109rem;
+    }
+      
+        .inputs{
+            height: 30.35rem;
+            left: 43rem;
+            position: absolute;
+            top: 41.55rem;
+            width: 70rem;
+        }
+          .input1{
+            background-color: #ffffff;
+    border-radius: 3rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.200000003);
+    height: 5rem;
+    left: 48.8rem;
+    position: absolute;
+    top: 6.05rem;
+    width: 35.4rem;
+    font-size: 25px;
+    padding: 5px;}
+          .input2{    background-color: #ffffff;
+            border-radius: 3rem;
+            box-shadow: 0 0 2rem rgba(0, 0, 0, 0.200000003);
+            height: 5rem;
+            left: 48.8rem;
+            position: absolute;
+            top: 16.05rem;
+            width: 35.4rem;
+            font-size: 25px;
+            padding: 5px;}
+            .input3{    background-color: #ffffff;
+                border-radius: 3rem;
+                box-shadow: 0 0 2rem rgba(0, 0, 0, 0.200000003);
+                height: 5rem;
+                right: 42.8rem;
+                position: absolute;
+                top: 6.05rem;
+                width: 35.4rem;
+                font-size: 25px;
+                padding: 5px;}
+                .input4{    background-color: #ffffff;
+                    border-radius: 3rem;
+                    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.200000003);
+                    height: 5rem;
+                    right: 42.8rem;
+                    position: absolute;
+                    top: 16.05rem;
+                    width: 35.4rem;
+                    font-size: 25px;
+                    padding: 5px;}
+                    
+
+
+            .data_title{    align-items: center;
+                color: #8c181b;
+                display: flex;
+                font-size: 3rem;
+                font-weight: 900;
+                height: 3.7rem;
+                justify-content: center;
+                left: 20.5rem;
+                line-height: 1.2125;
+                position: absolute;
+                top: -64px;
+                white-space: nowrap;
+                width: 33rem;
+            }
+    
+      .button{background-color: #8c181b;
+        border-radius: 3rem;
+        box-shadow: 0 0 2rem rgba(0, 0, 0, 0.200000003);
+        height: 5rem;
+        left: 28.3rem;
+        position: absolute;
+        top: 36.35rem;
+        width: 19.4rem;
+        color: #ffffff;
+        font-size: 2rem;
+        font-weight: 700;
+        
+        }
+        #gender{
+            position: absolute;
+            top: 26.05rem;
+            left: 48.8rem;
+            width: 36.8rem;
+            height: 6rem;
+            border-radius: 3rem;
+            box-shadow: 0 0 2rem rgba(0, 0, 0, 0.200000003);
+            font-size: 25px;
+            text-align:center;
+        }
+        #Blood{    position: absolute;
+            top: 26.05rem;
+            right: 42.8rem;
+            width: 36.8rem;
+            height: 6rem;
+            border-radius: 3rem;
+            box-shadow: 0 0 2rem rgba(0, 0, 0, 0.200000003);
+            font-size: 25px;
+            text-align: center;}
+           

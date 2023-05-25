@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap" rel="stylesheet">
+    <title>بنك الأقصر للدم</title>
+</head>
+<body>
+    <% if (message) { %>
+        <div style="text-align: center" class="alert alert-<%=message.type%>" role="alert">
+          <strong><h2><%= message%></h2></strong>
+        </div>
+      <% } %>
+
+    <div class="home_parent" >
+        <div class="home_bottom_page2" ></div>
+        
+        <div class="home_top_page" >
+        <div class="home_title" >
+        <div class="home_title1">
+        بنك الأقصر للتبرع بالدم
+
+        </div>
+        <br/>
+        <br/>
+        <div class="home_title2">اجعل العالم ينبض بالحياة..</div>
+        </div>
+        </div>
+        <div class="home_navbar" >
+        <div class="home_logo" >
+        
+        </div>
+        
+        <nav class="home_nav_content" >
+            <a href="//localhost:7000/">الصفحة الرئيسية</a>
+            <a href="//localhost:7000/about">من نحن</a>
+            <a href="//localhost:7000/request2">طلبات الدم </a>
+            
+       
+           <a href="//localhost:7000/card">عرض الدم</a>
+            
+        
+        
+            <a href="//localhost:7000/donations">تبرعات</a>
+            <a href="//localhost:7000/contact">تواصل معنا</a>
+        </nav>
+        
+        <div class="home_sign_icon" ></div>
+         <div class="home_sign_icon_content" ><a href="//localhost:7000/registration">تسجيل</a></div>
+         <div class="home_login_icon" ></div>
+         <div class="home_login_icon_content"><a href="//localhost:7000/login">تسجيل الدخول</a></div>
+        </div>
+        <div class="title1" >
+        <span class="title1-1">
+        بقطرة من دمك تقدر تنقذ روح.
+        
+        <br/>
+        </span>
+        <span class="title1-2">هذه الخدمات التى يقدمها موقعنا و التى تسطتيع من خلالها إجراء اى من احتياجاتك.</span>
+        </div>
+        <div class="before_last" >
+        <span class="before_last1">
+        ابدأ دلوقتي وأنقذ روح.
+        
+        <br/>
+        </span>
+        <span class="before_last2">قم بالتسجيل وإختيار ما إذا كنت فرد او مؤسسة</span>
+        </div>
+          <div class="home_bottom_page" >
+        <div class="home_team">
+        فريق عمل بنك الأقصر للدم
+        </div>
+        <br>
+        <br>
+        <div class="home_names">سارة سيد - روان عصام - شهد محمود - أدهم كرم - علي محمد</div>
+         </div>
+
+        
+        <div class="cards" >    
+        <div class="card1" id="card1" ></div>
+        <div class="card1_items" >
+        <div class="card1_img" >
+            <div class="card1_img" >
+                <img src="../req.png" alt="" height="230" width="230">
+            </div>
+        </div>
+        <div class="card1_content" >
+        <span class="card1_content1">
+        طلب دم
+        
+        <br/>
+        </span>
+        <span class="card1_content2">
+        خدمة خاصة للمستشفيات اللتي بحاجة الي أكياس دم
+        
+        <br/>
+        </span>
+        </div>
+        </div>
+        <div class="card2" id="card2" ></div>
+        <div class="card3"  id="card3"></div>
+        <div class="card2_items" >
+        <div class="card2_img ">
+            <div class="card2_img ">
+                <img src="../display.png" alt="" height="200" width="200">
+            </div>
+        </div>
+        <div class="card2_content" id="2:17">
+        <span class="card2_content1">
+        عرض دم
+        
+        <br/>
+        </span>
+        <span class="card2_content2">
+        خدمة للمستشفيات والأفراد بإمكانية تقديم أكياس دم
+        
+        <br/>
+        </span>
+        </div>
+        </div>
+        <div class="card3_items" id="8:2">
+        <div class="card3_img" id="2:18">
+            <div class="card3_img" >
+                <img src="../donations.png" alt="" height="230" width="230">
+            </div>
+        </div>
+        <div class="card3_content" id="2:19">
+        <span class="card3_content1">
+        تبرعات
+        
+        <br/>
+        </span>
+        <span class="card3_content2">
+        خدمة الأفراد بإمكانية التبرع بأكياس دم، أو أموال
+        
+        <br/>
+        </span>
+        </div>
+        </div>
+        </div>
+        <div class="title2" >
+        <span class="title2-1">
+        ساعدنا في إنقاذ حياة الكثير!
+        
+        <br/>
+        </span>
+        <span class="title2-2">ساعدنا في إنقاذ حياة شخص من خلال مشاركتنا في رحلتنا .. بدعمك هنقدر.</span>
+        </div>
+        <div class="middle_group" >
+        <div class="middle_group1" >
+        <div class="middle_group1_content" >
+           
+        <span class="middle_group1_content1  "  id="l">
+        أعثر على مستشفيات بجوارك.
+        <br/>
+        </span>
+        <span class="middle_group1_content2  " id="l2">ابحث عن اقرب المستشفيات فى منطقتك، وتعرف على فصائل الدم الموجودة لديهم، كما يمكنك التواصل معهم من خلال رقم التليفون الخاص بهم كي يلبى طلبك، او زُرهم في العنوان الخاص بهم.</span>
+   </div>
+        <div class="middle_group1_img  " ><img src="../first.jpg" alt="" height="761px"
+            width="761px" ></div>
+        </div>
+        <div class="middle_group2" >
+        <div class="middle_group2_img" ><img src="../second.jpg" alt="" height="761px"
+            width="761px" ></div>
+        <div class="middle_group2_content" >
+        <span class="middle_group2_content_title">
+        تحديث بياناتك لحالات الطوارئ.
+        
+        <br/>
+        </span>
+        <span class="middle_group2_content1">
+        نحن نعلم أن الوقت مهم! لذلك تأكد من تحديث بياناتك بإستمرار.
+        </span>
+        <br>
+        <span class="middle_group2_content2"><span class="middle_group2_content_title1">المستشفيات:</span> تأكد من تحديث عينات الدم الموجودة لديك، عددها، الخ .. </span>
+        <span class="middle_group2_content3"><span class="middle_group2_content_title2">الأفراد:</span> تأكد من تحديث بيانات التواصل معك بإستمرار.         
+    </span>
+        </div>
+        </div>
+        <div class="middle_group3" >
+        <div class=middle_group3_content >
+        <span class="middle_group3_content1">
+        كن بطل قصة شخصًا ما.
+        
+        <br/>
+        </span>
+        <span class="middle_group3_content2">إنقاذ الحياة عمل نبيل يبدأ بكل بساطة وسهولة. تبرع بالدم أو تبرع بالمال ، كل شكل من أشكال المساهمة التي تقدمها مهم ، وقيّم ، وأساسي في مهمتنا المشتركة لإنقاذ الأرواح.</span>
+        </div>
+        <div class="middle_group3_img" ><img src="../third.jpg" alt="" height="761px"
+            width="761px" ></div>
+        </div>
+        </div>
+        <div class="registration" ><a href="//localhost:7000/registration">سجل الان !</a></div>
+        </div>
+        <!-- <script defer src="../routes/home.js"></script> -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>

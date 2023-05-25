@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap" rel="stylesheet">
+    <title>تسجيل الدخول</title>
+</head>
+<body>
+    <% if (message) { %>
+        <div style="text-align: center" class="alert alert-<%=message.type%>" role="alert">
+          <strong><h2><%= message%></h2></strong>
+        </div>
+      <% } %>
+    <div class="parent" >
+        <div class="Toppage" ></div>
+         <div class="loginnavbar" >
+           <div class="loginlogo" >
+            <img src="" alt="">
+           </div>
+         <nav class="login_nav_content" >
+            <a href="//localhost:7000/">الصفحة الرئيسية</a>
+            <a href="//localhost:7000/about">من نحن</a>
+            <a href="//localhost:7000/request">طلبات الدم </a>
+            <a href="//localhost:7000/card">عرض الدم</a>
+            <a href="//localhost:7000/donations">تبرعات</a>
+            <a href="//localhost:7000/contact">تواصل معنا</a>
+        </nav>
+         <div class="sign_icon" ></div>
+         <div class="sign_icon_content" ><a href="//localhost:7000/registration">تسجيل</a></div>
+         <div class="login_icon" ></div>
+         <div class="login_icon_content"><a href="//localhost:7000/login">تسجيل الدخول</a></div>
+         </div>
+
+        <div class="child1" ></div>
+        
+        <form  name="form"  method="POST" id="form" action="/auth/login">
+            
+            <button  type="submit">تسجيــــل</button>
+            <div class="title"> تسجيل الدخول </div>
+            <input class="box1"  id="email"    placeholder="البريد الإلكتروني" type="email" required  name="email"></input>
+            <input class="box2"    name="password"   id="password"   placeholder="كلمة السر" type="password"></input>
+            <div id="error"></div>
+        </form >
+        <div class="bottom_page" >
+         
+        <div class="team">
+        فريق عمل بنك الأقصر للدم
+        </div>
+        <br>
+        
+        <div class="names">سارة سيد - روان عصام - شهد محمود - أدهم كرم - علي محمد</div>
+        
+        </div>
+        <img class="imge" src="../1 1.png" />
+        </div>
+        <script    defer src="login.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>

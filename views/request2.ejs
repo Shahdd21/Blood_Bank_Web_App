@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>طلب الدم  للمسجلين</title>
+    <link rel="stylesheet" href="request2.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="parent">
+        <div class="background"></div>
+        <div class="Toppage" ></div>
+        <div class="requestnavbar" >
+            <div class="requestlogo" >
+             <img src="" alt="">
+            </div>
+          <nav class="request_nav_content" >
+            <a href="//localhost:7000/">الصفحة الرئيسية</a>
+             <a href="//localhost:7000/about">من نحن</a>
+             <a href="//localhost:7000/request2">طلبات الدم </a>
+             <a href="//localhost:7000/card">عرض الدم</a>
+             <a href="//localhost:7000/donations">تبرعات</a>
+             <a href="//localhost:7000/contact">تواصل معنا</a>
+         </nav>
+          <div class="sign_icon" ></div>
+          <div class="sign_icon_content" ><a href="#">حسابي</a></div>
+          <div class="login_icon" ></div>
+          <div class="login_icon_content"><a href="#">تسجيل الخروج</a></div>
+          </div>
+
+          <div class="middel" >
+            <div class="part1" >
+            <span class="part1-sub-0">
+            خدمــة طلـــب الـــدم
+            
+            <br/>
+            </span>
+            <span class="part1-sub-1"> يمكن الان للمستشفيات طلب أكياس دم من مستشفيات وأفراد اخرين
+                      مجـــــــانًــــــا من خـــلال بنـــك الأقصــر للتبــــرع بالــــدم                         </span>
+            </div>
+          
+    </div>
+    <div class="data"></div>
+    <form action="/request2" method="POST">
+        <div class="inputs">
+            <div class="data_title" >ادخل البيانات المطلوبة</div>
+            <select class="input1" name="blood_group" >
+                <option value="one">+A</option>
+                <option value="two">-A</option>
+                <option value="three">+B</option>
+                <option value="four">-B</option>
+                <option value="five">+AB</option>
+                <option value="six">-AB</option>
+                <option value="seven">+O</option>
+                <option value="eight">-O</option>
+            <input class="input2" placeholder="الكميه (عدد الاكياس المطلوبه)" name="quantity" type="number"></input>
+            <button class="button">إدخال البيانات</button>
+        </div>
+    </form>
+
+    <div class="bottom_page" >
+         
+        <div class="team">
+        فريق عمل بنك الأقصر للدم
+        </div>
+        <br>
+        
+        <div class="names">سارة سيد - روان عصام - شهد محمود - أدهم كرم - علي محمد</div>
+        
+        </div>
+</div>
+
+</body>
+</html>

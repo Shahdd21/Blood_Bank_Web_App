@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عرض التبرعات  </title>
+    <link rel="stylesheet" href="donations2.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="parent">
+        <div class="background"></div>
+        <div class="Toppage" ></div>
+        <div class="requestnavbar" >
+            <div class="requestlogo" >
+             <img src="" alt="">
+            </div>
+          <nav class="request_nav_content" >
+             <a href="//localhost:7000/">الصفحة الرئيسية</a>
+             <a href="//localhost:7000/about">من نحن</a>
+             <a href="//localhost:7000/request2">طلبات الدم </a>
+             <a href="//localhost:7000/card">عرض الدم</a>
+             <a href="//localhost:7000/donations">تبرعات</a>
+             <a href="//localhost:7000/contact">تواصل معنا</a>
+         </nav>
+          <div class="sign_icon" ></div>
+          <div class="sign_icon_content" ><a href="#">حسابي</a></div>
+          <div class="login_icon" ></div>
+          <div class="login_icon_content"><a href="#">تسجيل الخروج</a></div>
+          </div>
+
+          
+          <% for(let i = 0 ; i < row.length ; i++) {%>
+    <div class="data"> <span class="one">اسم المتبرع:</span>
+        <span class="one_sub1"><%= row[i].first_name %></span>
+        <span class="two">رقم الهاتف:</span>
+        <span class="two_sub1"><%= row[i].phone%></span>
+        <span class="three">النوع:</span>
+        <span class="three_sub1"><%=row[i].type%></span>
+        <span class="four">السن:</span>
+        <span class="four_sub1"><%= row[i].age%></span>
+        <span class="five">البريد الالكتروني:</span>
+        <span class="five_sub1">  <%= row[i].donor_email %></span>
+        <span class="blood_title">فصائل الدم</span>
+        <span class="blood1" id="blood">-A</span>
+        <span class="blood2" id="blood">+A</span>
+        <span class="blood3" id="blood">-B</span>
+        <span class="blood4" id="blood">+B</span>
+        <span class="blood5" id="blood">+AB</span>
+        <span class="blood6" id="blood">-AB</span>
+        <span class="blood7" id="blood">-O</span>
+        <span class="blood8" id="blood">+O</span>
+        <span class="quantity1" id="quantity"><%= row[i].Apquantity %></span>
+        <span class="quantity2"id="quantity"><%= row[i].Amquantity %></span>
+        <span class="quantity3"id="quantity"><%= row[i].Bpquantity%></span>
+        <span class="quantity4"id="quantity"><%= row[i].Bmquantity%></span>
+        <span class="quantity5"id="quantity"><%= row[i].ABpquantity%></span>
+        <span class="quantity6"id="quantity"><%= row[i].ABmquantity%></span>
+        <span class="quantity7"id="quantity"><%= row[i].Opquantity%></span>
+        <span class="quantity8"id="quantity"><%= row[i].Omquantity%></span>
+    </div>
+    <% } %>
+    </div>
+    <div class="bottom_page" >
+         
+        <div class="team">
+        فريق عمل بنك الأقصر للدم
+        </div>
+        <br>
+        
+        <div class="names">سارة سيد - روان عصام - شهد محمود - أدهم كرم - علي محمد</div>
+        
+        </div>
+
+
+</body>
+</html>
