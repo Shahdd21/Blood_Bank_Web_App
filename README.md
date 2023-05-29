@@ -8,3 +8,15 @@ On تبرعات page, you fill in your personal information to make a donation.
 On تواصل معنا page, you can send us any concerns you have!
 
 Technologies used : HTML,CSS,JS,NODE JS ,EXPRESS,MYSQL
+Team members: Hafsa Desouky (Backend)
+              Shahd Mahmoud (Backend)
+              Sarah Sayed (Database)
+              Rawan Essam (Frontend)
+              Adham Karam (UI)
+              Ali Mohammed (Documentation)
+       
+       
+      Video:
+     [2023-05-25-15-17-31-17_U8Pwx3Ot.zip](https://github.com/Shahdd21/Blood_Bank_Web_App/files/11592765/2023-05-25-15-17-31-17_U8Pwx3Ot.zip)
+        
+             
