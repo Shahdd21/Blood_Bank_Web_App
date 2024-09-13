@@ -12,7 +12,7 @@ The main idea of our project is to facilitate blood donations and blood searchin
 - Included a support system for user inquiries and concerns .
 
 ## Technologies
- HTML,CSS,JS,NODE JS ,EXPRESS,MYSQL
+ HTML, CSS, JS, Node Js, ExpressJs, MySQL
 
 -------------------------------------------------------------------------------------------------
  
